@@ -1,0 +1,27 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "JS practice repository",
+  "main": "index.js",
+  "scripts": {
+    "start": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pracheepatil/Practice.git"
+  },
+  "author": "Prachu 😊",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pracheepatil/Practice/issues"
+  },
+  "homepage": "https://github.com/pracheepatil/Practice#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
