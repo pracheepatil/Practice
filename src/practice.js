@@ -22,7 +22,13 @@ exports.secondLargest = (nums) => {
   return ans;
 };
 
+/**
+ * print all the characters of the string in new lines
+ * maintain the order of characters as in input str
+ * With one change, print all the vowels first then consonants
+ * e.g. prachu -> a, u, p, r, c, h
+ */
 
-exports.vowelsAndConsonants = (s) => {
+exports.vowelsAndConsonants = (str) => {
   // Your code goes here
 };
