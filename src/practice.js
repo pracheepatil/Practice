@@ -1,3 +1,5 @@
+// BEST OF LUCK PRACHU 😘
+
 /**
  * Return an array of numbers from 1 to N.
  * But replace the numbers with
@@ -8,8 +10,7 @@
 
 exports.numbersArray = (n) => {
   const res = [];
-  // Your code goes here
-  
+  // Your code goes here 😃
   return res;
 };
 
@@ -18,7 +19,8 @@ exports.numbersArray = (n) => {
  */
 exports.secondLargest = (nums) => {
   let ans;
-  // Your code goes here
+  // Your code goes here 😃
+  console.log('hhhh');
   return ans;
 };
 
@@ -30,5 +32,5 @@ exports.secondLargest = (nums) => {
  */
 
 exports.vowelsAndConsonants = (str) => {
-  // Your code goes here
+  // Your code goes here 😃
 };

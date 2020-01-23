@@ -1,7 +1,7 @@
+const mockConsole = require('jest-mock-console').default;
 const prachu = require('../practice');
 
 console.log = jest.fn();
-
 describe('Prachu ka talent 😊', () => {
   test('Numbers Array 5', () => {
     expect(prachu.numbersArray(5)).toEqual([1, 2, 'Fizz', 4, 'Buzz']);
@@ -19,6 +19,13 @@ describe('Prachu ka talent 😊', () => {
   });
 
   test('vowelsAndConsonants', () => {
-    //
+    const restoreConsole = mockConsole();
+    prachu.vowelsAndConsonants('prachu');
+    expect(console.log.mock.calls).toEqual([['a'], ['u'], ['p'], ['r'], ['c'], ['h']]);
+    prachu.vowelsAndConsonants('javascriptloops');
+    expect(console.log.mock.calls).toEqual([
+      ['a'], ['a'], ['i'], ['o'], ['o'], ['j'], ['v'], ['s'], ['c'], ['r'], ['p'], ['t'], ['l'], ['p'], ['s'],
+    ]);
+    restoreConsole();
   });
 });
