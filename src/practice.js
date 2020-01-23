@@ -20,7 +20,6 @@ exports.numbersArray = (n) => {
 exports.secondLargest = (nums) => {
   let ans;
   // Your code goes here 😃
-  console.log('hhhh');
   return ans;
 };
 
